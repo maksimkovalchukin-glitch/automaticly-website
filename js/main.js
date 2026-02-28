@@ -409,6 +409,15 @@ function initContactForm() {
       if (res.ok) {
         form.reset();
         if (success) success.style.display = 'block';
+
+        /* ── Google Ads Conversion ──────────────────────────────────
+           Замінити 'AW-XXXXXXXXXX/YYYYYYYYYYYYYYYYYY' на свій
+           Conversion ID / Label з Google Ads → Цілі → Конверсії
+           ────────────────────────────────────────────────────────── */
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'conversion', { send_to: 'AW-XXXXXXXXXX/YYYYYYYYYYYYYYYYYY' });
+          gtag('event', 'generate_lead', { event_category: 'form', event_label: 'contact_form' });
+        }
       }
     } catch {}
     btn.disabled = false;

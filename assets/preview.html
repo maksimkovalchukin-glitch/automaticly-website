@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Logo Preview</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Inter, sans-serif; background: #f0f0f0; padding: 40px; }
+    .row { display: flex; gap: 40px; align-items: center; flex-wrap: wrap; margin-bottom: 48px; }
+    .box { padding: 32px 40px; border-radius: 16px; display: flex; align-items: center; gap: 24px; flex-direction: column; }
+    .box--dark  { background: #0a0d12; }
+    .box--light { background: #ffffff; border: 1px solid #e0e0e0; }
+    .label { font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: #999; margin-bottom: 8px; }
+    .sizes { display: flex; gap: 20px; align-items: flex-end; }
+    img { display: block; }
+  </style>
+</head>
+<body>
+
+  <p class="label">Повний логотип — темний фон</p>
+  <div class="box box--dark" style="margin-bottom:32px">
+    <img src="logo.svg" height="48" />
+    <img src="logo.svg" height="32" />
+    <img src="logo.svg" height="20" />
+  </div>
+
+  <p class="label">Повний логотип — світлий фон</p>
+  <div class="box box--light" style="margin-bottom:32px">
+    <img src="logo-dark.svg" height="48" />
+    <img src="logo-dark.svg" height="32" />
+    <img src="logo-dark.svg" height="20" />
+  </div>
+
+  <p class="label">Іконка / Favicon</p>
+  <div class="row">
+    <div class="box box--dark">
+      <img src="icon.svg" width="96" height="96" />
+      <img src="icon.svg" width="48" height="48" />
+      <img src="icon.svg" width="32" height="32" />
+      <img src="icon.svg" width="16" height="16" />
+    </div>
+    <div class="box box--light">
+      <img src="icon.svg" width="96" height="96" />
+      <img src="icon.svg" width="48" height="48" />
+      <img src="icon.svg" width="32" height="32" />
+      <img src="icon.svg" width="16" height="16" />
+    </div>
+  </div>
+
+</body>
+</html>
