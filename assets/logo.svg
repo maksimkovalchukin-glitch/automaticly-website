@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 48" fill="none">
+  <!-- ===== ICON MARK ===== -->
+  <rect width="48" height="48" rx="12" fill="#00e5b0"/>
+
+  <!-- Rotation arrows -->
+  <path d="M 14 16 A 12 12 0 0 1 34 24" stroke="#070a0f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 30 21 L 34 25 L 38 21" stroke="#070a0f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 34 32 A 12 12 0 0 1 14 24" stroke="#070a0f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 18 27 L 14 23 L 10 27" stroke="#070a0f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ===== WORDMARK ===== -->
+  <text
+    x="62"
+    y="32"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="22"
+    font-weight="800"
+    letter-spacing="-0.5"
+    fill="#e8edf5"
+  >automaticly</text>
+
+  <!-- Teal dot accent -->
+  <text
+    x="247"
+    y="32"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="22"
+    font-weight="800"
+    fill="#00e5b0"
+  >.</text>
+</svg>
