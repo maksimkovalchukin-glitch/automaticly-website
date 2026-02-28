@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кейси — Automaticly</title>
+  <meta name="description" content="Реальні приклади автоматизацій: Make, n8n, AI-агенти, Telegram-боти, Odoo. Задачі, рішення, результати." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
+    <nav class="nav__links">
+      <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
+      <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
+      <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
+      <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
+      <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
+      <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="lang-switcher" id="langBtn">EN</button>
+      <a href="contact.html" class="btn btn--primary btn--sm" data-i18n="nav.cta">Обговорити проєкт</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav__mobile" id="mobileMenu">
+    <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
+    <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
+    <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
+    <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
+    <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
+    <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+    <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero__bg"></div>
+  <div class="container page-hero__inner">
+    <div class="page-hero__tag" data-i18n="cases.tag">Кейси</div>
+    <h1 data-i18n="cases.h1">Наші проєкти</h1>
+    <p data-i18n="cases.sub">Реальні задачі — реальні результати</p>
+  </div>
+</section>
+
+<!-- CASES -->
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all" data-i18n="cases.all">Всі</button>
+      <button class="filter-btn" data-filter="make" data-i18n="cases.make">Make / n8n</button>
+      <button class="filter-btn" data-filter="ai" data-i18n="cases.ai">AI</button>
+      <button class="filter-btn" data-filter="telegram" data-i18n="cases.tg">Telegram</button>
+      <button class="filter-btn" data-filter="odoo" data-i18n="cases.odoo">Odoo</button>
+    </div>
+
+    <div class="cases-grid">
+
+      <div class="case-card reveal" data-cat="make">
+        <span class="case-card__tag" data-i18n="c1.tag">Make / n8n</span>
+        <h3 data-i18n="c1.title">Автоматизація обробки заявок для SaaS</h3>
+        <div class="case-card__body">
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.problem">Задача</div>
+            <div class="case-block__text" data-i18n="c1.problem">Менеджери вручну переносили дані з форм у CRM та відправляли листи — 3-4 год/день.</div>
+          </div>
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.solution">Рішення</div>
+            <div class="case-block__text" data-i18n="c1.solution">Make-сценарій: форма → CRM → автолист → завдання в ClickUp → Slack-сповіщення.</div>
+          </div>
+        </div>
+        <div class="case-card__result">
+          <div class="case-card__result-num" data-i18n="c1.result.n">4 год</div>
+          <div class="case-card__result-label" data-i18n="c1.result.l">зекономлено щодня</div>
+        </div>
+      </div>
+
+      <div class="case-card reveal" data-cat="ai">
+        <span class="case-card__tag" data-i18n="c2.tag">AI</span>
+        <h3 data-i18n="c2.title">AI-помічник для підтримки клієнтів</h3>
+        <div class="case-card__body">
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.problem">Задача</div>
+            <div class="case-block__text" data-i18n="c2.problem">Команда підтримки витрачала до 70% часу на однотипні запитання.</div>
+          </div>
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.solution">Рішення</div>
+            <div class="case-block__text" data-i18n="c2.solution">Claude-based бот з базою знань компанії. Відповідає 24/7, ескалює складні кейси до людини.</div>
+          </div>
+        </div>
+        <div class="case-card__result">
+          <div class="case-card__result-num" data-i18n="c2.result.n">70%</div>
+          <div class="case-card__result-label" data-i18n="c2.result.l">запитів вирішує автоматично</div>
+        </div>
+      </div>
+
+      <div class="case-card reveal" data-cat="telegram">
+        <span class="case-card__tag" data-i18n="c3.tag">Telegram</span>
+        <h3 data-i18n="c3.title">Telegram-бот для прийому замовлень</h3>
+        <div class="case-card__body">
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.problem">Задача</div>
+            <div class="case-block__text" data-i18n="c3.problem">Замовлення приймались вручну в кількох чатах, часто губились і плутались.</div>
+          </div>
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.solution">Рішення</div>
+            <div class="case-block__text" data-i18n="c3.solution">Telegram-бот з формою замовлення, автопідтвердженням та записом у Google Sheets + сповіщення власнику.</div>
+          </div>
+        </div>
+        <div class="case-card__result">
+          <div class="case-card__result-num" data-i18n="c3.result.n">0</div>
+          <div class="case-card__result-label" data-i18n="c3.result.l">втрачених замовлень</div>
+        </div>
+      </div>
+
+      <div class="case-card reveal" data-cat="odoo">
+        <span class="case-card__tag" data-i18n="c4.tag">Odoo</span>
+        <h3 data-i18n="c4.title">Впровадження Odoo CRM для агентства</h3>
+        <div class="case-card__body">
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.problem">Задача</div>
+            <div class="case-block__text" data-i18n="c4.problem">Угоди велись у таблицях Excel, не було розуміння воронки і конверсій.</div>
+          </div>
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.solution">Рішення</div>
+            <div class="case-block__text" data-i18n="c4.solution">Налаштування Odoo CRM: стадії угод, авто-задачі, інтеграція з поштою, дашборд для керівника.</div>
+          </div>
+        </div>
+        <div class="case-card__result">
+          <div class="case-card__result-num" data-i18n="c4.result.n">3×</div>
+          <div class="case-card__result-label" data-i18n="c4.result.l">прозорість воронки</div>
+        </div>
+      </div>
+
+      <div class="case-card reveal" data-cat="make">
+        <span class="case-card__tag" data-i18n="c5.tag">Make / n8n</span>
+        <h3 data-i18n="c5.title">Автоматичні звіти для маркетингової агенції</h3>
+        <div class="case-card__body">
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.problem">Задача</div>
+            <div class="case-block__text" data-i18n="c5.problem">Щотижня 2 год витрачалось на збір даних з GA4, Meta Ads, Google Sheets і формування звітів.</div>
+          </div>
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.solution">Рішення</div>
+            <div class="case-block__text" data-i18n="c5.solution">n8n-сценарій: збір даних → обробка → готовий PDF-звіт → автовідправка клієнту.</div>
+          </div>
+        </div>
+        <div class="case-card__result">
+          <div class="case-card__result-num" data-i18n="c5.result.n">2 год</div>
+          <div class="case-card__result-label" data-i18n="c5.result.l">зекономлено щотижня</div>
+        </div>
+      </div>
+
+      <div class="case-card reveal" data-cat="ai">
+        <span class="case-card__tag" data-i18n="c6.tag">AI</span>
+        <h3 data-i18n="c6.title">AI-агент для кваліфікації лідів</h3>
+        <div class="case-card__body">
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.problem">Задача</div>
+            <div class="case-block__text" data-i18n="c6.problem">Менеджери витрачали час на нецільові заявки, не встигали обробляти всі ліди.</div>
+          </div>
+          <div class="case-block">
+            <div class="case-block__label" data-i18n="cases.solution">Рішення</div>
+            <div class="case-block__text" data-i18n="c6.solution">AI-агент аналізує нову заявку, ставить уточнюючі питання, оцінює якість і передає готовий профіль менеджеру.</div>
+          </div>
+        </div>
+        <div class="case-card__result">
+          <div class="case-card__result-num" data-i18n="c6.result.n">50%</div>
+          <div class="case-card__result-label" data-i18n="c6.result.l">зростання конверсії</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="cta-banner">
+      <h2 data-i18n="cases.cta.h2">Маєте схожу задачу?</h2>
+      <p data-i18n="cases.cta.sub">Розкажіть нам — запропонуємо рішення безкоштовно.</p>
+      <div class="btns">
+        <a href="contact.html" class="btn btn--primary btn--lg" data-i18n="nav.cta">Обговорити проєкт</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
+        <p data-i18n="footer.tagline">Автоматизуємо рутину — ви зростаєте.</p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col1">Послуги</h4>
+        <a href="services.html#make" data-i18n="footer.s1">Make / n8n</a>
+        <a href="services.html#ai" data-i18n="footer.s2">AI-агенти</a>
+        <a href="services.html#telegram" data-i18n="footer.s3">Telegram-боти</a>
+        <a href="services.html#odoo" data-i18n="footer.s4">Odoo ERP</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col2">Компанія</h4>
+        <a href="about.html" data-i18n="footer.c1">Про нас</a>
+        <a href="cases.html" data-i18n="footer.c2">Кейси</a>
+        <a href="contact.html" data-i18n="footer.c3">Контакти</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col3">Ресурси</h4>
+        <a href="blog.html" data-i18n="footer.r1">Блог</a>
+        <a href="contact.html#faq" data-i18n="footer.r2">FAQ</a>
+        <a href="https://t.me/your_telegram" target="_blank" data-i18n="footer.r3">Telegram</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer.copy">© 2026 automaticly.org</p>
+      <div class="footer__socials">
+        <a href="https://t.me/your_telegram" target="_blank" title="Telegram">✈</a>
+        <a href="https://linkedin.com" target="_blank" title="LinkedIn">in</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

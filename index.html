@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automaticly — Автоматизація бізнесу</title>
+  <meta name="description" content="Автоматизуємо бізнес-процеси на Make, n8n, AI-агентах, Telegram-ботах та Odoo. Позбудьтесь рутини — зростайте швидше." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
+    <nav class="nav__links">
+      <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
+      <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
+      <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
+      <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
+      <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
+      <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="lang-switcher" id="langBtn">EN</button>
+      <a href="contact.html" class="btn btn--primary btn--sm" data-i18n="nav.cta">Обговорити проєкт</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav__mobile" id="mobileMenu">
+    <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
+    <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
+    <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
+    <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
+    <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
+    <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+    <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__bg"></div>
+  <div class="hero__dots"></div>
+  <div class="container hero__inner">
+    <div class="hero__badge" data-i18n="home.badge">✦ Автоматизація & AI</div>
+    <h1 class="hero__title" data-i18n="home.h1">Автоматизуй бізнес.<br>Зосередься на <span class="accent">головному</span>.</h1>
+    <p class="hero__sub" data-i18n="home.sub">Будуємо системи автоматизації на Make, n8n, AI-агентах та Telegram-ботах. Позбудьтесь рутини — зростайте швидше.</p>
+    <div class="hero__btns">
+      <a href="contact.html" class="btn btn--primary btn--lg" data-i18n="home.cta1">Отримати консультацію</a>
+      <a href="services.html" class="btn btn--ghost btn--lg" data-i18n="home.cta2">Переглянути послуги</a>
+    </div>
+    <div class="hero__stats">
+      <div class="stat"><div class="stat__num" data-i18n="home.stat1.n">50+</div><div class="stat__label" data-i18n="home.stat1.l">проєктів</div></div>
+      <div class="stat__divider"></div>
+      <div class="stat"><div class="stat__num" data-i18n="home.stat2.n">10×</div><div class="stat__label" data-i18n="home.stat2.l">пришвидшення процесів</div></div>
+      <div class="stat__divider"></div>
+      <div class="stat"><div class="stat__num" data-i18n="home.stat3.n">24/7</div><div class="stat__label" data-i18n="home.stat3.l">автоматична робота</div></div>
+    </div>
+    <div class="hero__trust mt-32">
+      <p data-i18n="home.trust">Працюємо з</p>
+      <div class="trust-logos">
+        <div class="trust-logo">Make</div>
+        <div class="trust-logo">n8n</div>
+        <div class="trust-logo">Claude AI</div>
+        <div class="trust-logo">Telegram</div>
+        <div class="trust-logo">Odoo</div>
+        <div class="trust-logo">Google Workspace</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__tag" data-i18n="home.s.tag">Послуги</div>
+      <h2 data-i18n="home.s.h2">Що ми автоматизуємо</h2>
+      <p data-i18n="home.s.sub">Від простих інтеграцій до складних AI-систем</p>
+    </div>
+    <div class="cards">
+      <a href="services.html#make" class="card reveal">
+        <div class="card__icon">⚡</div>
+        <h3 data-i18n="home.s1.title">Make / n8n автоматизація</h3>
+        <p data-i18n="home.s1.desc">Зв'язуємо сервіси в єдину систему. CRM, таблиці, email, месенджери — все автоматично.</p>
+        <ul>
+          <li data-i18n="home.s1.f1">Інтеграція між платформами</li>
+          <li data-i18n="home.s1.f2">Автоматичні звіти та сповіщення</li>
+          <li data-i18n="home.s1.f3">Обробка даних без коду</li>
+        </ul>
+        <span class="card__link">Детальніше →</span>
+      </a>
+      <a href="services.html#ai" class="card reveal">
+        <div class="card__icon">🤖</div>
+        <h3 data-i18n="home.s2.title">AI-агенти та чатботи</h3>
+        <p data-i18n="home.s2.desc">Розумні боти відповідають клієнтам, обробляють заявки і приймають рішення замість вас.</p>
+        <ul>
+          <li data-i18n="home.s2.f1">GPT / Claude-based агенти</li>
+          <li data-i18n="home.s2.f2">Обробка запитів 24/7</li>
+          <li data-i18n="home.s2.f3">Інтеграція з базою знань</li>
+        </ul>
+        <span class="card__link">Детальніше →</span>
+      </a>
+      <a href="services.html#telegram" class="card reveal">
+        <div class="card__icon">📱</div>
+        <h3 data-i18n="home.s3.title">Telegram-боти</h3>
+        <p data-i18n="home.s3.desc">Telegram як повноцінний інтерфейс для бізнесу: заявки, сповіщення, управління командою.</p>
+        <ul>
+          <li data-i18n="home.s3.f1">Боти для продажів і підтримки</li>
+          <li data-i18n="home.s3.f2">Авто-сповіщення про події</li>
+          <li data-i18n="home.s3.f3">Внутрішні інструменти</li>
+        </ul>
+        <span class="card__link">Детальніше →</span>
+      </a>
+      <a href="services.html#odoo" class="card reveal">
+        <div class="card__icon">🏢</div>
+        <h3 data-i18n="home.s4.title">Odoo ERP / CRM</h3>
+        <p data-i18n="home.s4.desc">Впровадження та кастомізація Odoo: модулі під ваш бізнес, автоматизація, інтеграції.</p>
+        <ul>
+          <li data-i18n="home.s4.f1">Впровадження та налаштування</li>
+          <li data-i18n="home.s4.f2">Кастомні модулі</li>
+          <li data-i18n="home.s4.f3">Зовнішні інтеграції</li>
+        </ul>
+        <span class="card__link">Детальніше →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__tag" data-i18n="home.compare.tag">Порівняння</div>
+      <h2 data-i18n="home.compare.h2">Бізнес з автоматизацією і без</h2>
+    </div>
+    <div class="compare">
+      <div class="compare__col compare__col--bad">
+        <h3 data-i18n="home.compare.bad">Без автоматизації</h3>
+        <ul class="compare-list">
+          <li><span class="ico">❌</span><span data-i18n="home.bad1">Ручне введення даних щодня</span></li>
+          <li><span class="ico">❌</span><span data-i18n="home.bad2">Помилки через людський фактор</span></li>
+          <li><span class="ico">❌</span><span data-i18n="home.bad3">Команда зайнята рутиною</span></li>
+          <li><span class="ico">❌</span><span data-i18n="home.bad4">Повільна реакція на клієнтів</span></li>
+          <li><span class="ico">❌</span><span data-i18n="home.bad5">Дані розкидані по різних місцях</span></li>
+        </ul>
+      </div>
+      <div class="compare__col compare__col--good">
+        <h3 data-i18n="home.compare.good">З automaticly</h3>
+        <ul class="compare-list">
+          <li class="good"><span class="ico">✅</span><span data-i18n="home.good1">Дані синхронізуються автоматично</span></li>
+          <li class="good"><span class="ico">✅</span><span data-i18n="home.good2">Система працює без помилок</span></li>
+          <li class="good"><span class="ico">✅</span><span data-i18n="home.good3">Команда фокусується на зростанні</span></li>
+          <li class="good"><span class="ico">✅</span><span data-i18n="home.good4">Клієнти отримують відповідь за секунди</span></li>
+          <li class="good"><span class="ico">✅</span><span data-i18n="home.good5">Вся інформація в одному місці</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__tag" data-i18n="home.process.tag">Процес</div>
+      <h2 data-i18n="home.process.h2">Як ми працюємо</h2>
+      <p data-i18n="home.process.sub">4 кроки від задачі до результату</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step__num">01</div>
+        <h3 data-i18n="home.step1.title">Консультація</h3>
+        <p data-i18n="home.step1.desc">Розбираємо ваші процеси, знаходимо де автоматизація дасть максимальний ефект.</p>
+      </div>
+      <div class="step__arrow">→</div>
+      <div class="step reveal">
+        <div class="step__num">02</div>
+        <h3 data-i18n="home.step2.title">Стратегія</h3>
+        <p data-i18n="home.step2.desc">Проєктуємо рішення, вибираємо інструменти, погоджуємо деталі.</p>
+      </div>
+      <div class="step__arrow">→</div>
+      <div class="step reveal">
+        <div class="step__num">03</div>
+        <h3 data-i18n="home.step3.title">Розробка</h3>
+        <p data-i18n="home.step3.desc">Будуємо і тестуємо систему. Повна прозорість на кожному кроці.</p>
+      </div>
+      <div class="step__arrow">→</div>
+      <div class="step reveal">
+        <div class="step__num">04</div>
+        <h3 data-i18n="home.step4.title">Запуск і підтримка</h3>
+        <p data-i18n="home.step4.desc">Запускаємо, навчаємо команду, залишаємось на зв'язку після старту.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__tag" data-i18n="home.testi.tag">Відгуки</div>
+      <h2 data-i18n="home.testi.h2">Що кажуть клієнти</h2>
+    </div>
+    <div class="testimonials">
+      <div class="testimonial reveal">
+        <div class="testimonial__stars">★★★★★</div>
+        <p class="testimonial__text">"Автоматизували прийом заявок і щотижневі звіти. Команда тепер не витрачає по 3 години на день на рутину. Результат видно вже з першого тижня."</p>
+        <div class="testimonial__author">
+          <div class="testimonial__avatar">О</div>
+          <div><div class="testimonial__name">Олег М.</div><div class="testimonial__role">CEO, SaaS-стартап</div></div>
+        </div>
+      </div>
+      <div class="testimonial reveal">
+        <div class="testimonial__stars">★★★★★</div>
+        <p class="testimonial__text">"Telegram-бот для прийому замовлень — просто пушка. Ніхто більше не губиться в чатах, все фіксується автоматично. Рекомендую!"</p>
+        <div class="testimonial__author">
+          <div class="testimonial__avatar">М</div>
+          <div><div class="testimonial__name">Марина К.</div><div class="testimonial__role">Власниця інтернет-магазину</div></div>
+        </div>
+      </div>
+      <div class="testimonial reveal">
+        <div class="testimonial__stars">★★★★★</div>
+        <p class="testimonial__text">"Впровадили Odoo CRM за 3 тижні. Нарешті бачимо всю воронку, знаємо де губляться клієнти. Продажі зросли на 30% за перший квартал."</p>
+        <div class="testimonial__author">
+          <div class="testimonial__avatar">А</div>
+          <div><div class="testimonial__name">Андрій С.</div><div class="testimonial__role">Директор агентства</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="section">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <div class="section__tag" data-i18n="home.cta.tag">Готові?</div>
+      <h2 data-i18n="home.cta.h2">Автоматизуємо ваш бізнес</h2>
+      <p data-i18n="home.cta.sub">Залишайте заявку — безкоштовна консультація, без зобов'язань.</p>
+      <div class="btns">
+        <a href="contact.html" class="btn btn--primary btn--lg" data-i18n="home.cta.btn1">Отримати консультацію</a>
+        <a href="cases.html" class="btn btn--ghost btn--lg" data-i18n="home.cta.btn2">Переглянути кейси</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
+        <p data-i18n="footer.tagline">Автоматизуємо рутину — ви зростаєте.</p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col1">Послуги</h4>
+        <a href="services.html#make" data-i18n="footer.s1">Make / n8n</a>
+        <a href="services.html#ai" data-i18n="footer.s2">AI-агенти</a>
+        <a href="services.html#telegram" data-i18n="footer.s3">Telegram-боти</a>
+        <a href="services.html#odoo" data-i18n="footer.s4">Odoo ERP</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col2">Компанія</h4>
+        <a href="about.html" data-i18n="footer.c1">Про нас</a>
+        <a href="cases.html" data-i18n="footer.c2">Кейси</a>
+        <a href="contact.html" data-i18n="footer.c3">Контакти</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col3">Ресурси</h4>
+        <a href="blog.html" data-i18n="footer.r1">Блог</a>
+        <a href="contact.html#faq" data-i18n="footer.r2">FAQ</a>
+        <a href="https://t.me/your_telegram" target="_blank" data-i18n="footer.r3">Telegram</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer.copy">© 2026 automaticly.org</p>
+      <div class="footer__socials">
+        <a href="https://t.me/your_telegram" target="_blank" title="Telegram">✈</a>
+        <a href="https://linkedin.com" target="_blank" title="LinkedIn">in</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

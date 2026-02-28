@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Блог — Automaticly</title>
+  <meta name="description" content="Статті про автоматизацію, AI-агентів, Telegram-боти та Odoo. Корисно для малого і середнього бізнесу." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
+    <nav class="nav__links">
+      <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
+      <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
+      <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
+      <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
+      <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
+      <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="lang-switcher" id="langBtn">EN</button>
+      <a href="contact.html" class="btn btn--primary btn--sm" data-i18n="nav.cta">Обговорити проєкт</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav__mobile" id="mobileMenu">
+    <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
+    <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
+    <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
+    <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
+    <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
+    <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+    <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero__bg"></div>
+  <div class="container page-hero__inner">
+    <div class="page-hero__tag" data-i18n="blog.tag">Блог</div>
+    <h1 data-i18n="blog.h1">База знань</h1>
+    <p data-i18n="blog.sub">Статті про автоматизацію, AI та ефективний бізнес</p>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="section">
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all" data-i18n="blog.all">Всі</button>
+      <button class="filter-btn" data-filter="automation" data-i18n="blog.cat1">Автоматизація</button>
+      <button class="filter-btn" data-filter="ai" data-i18n="blog.cat2">AI</button>
+      <button class="filter-btn" data-filter="odoo" data-i18n="blog.cat3">Odoo</button>
+      <button class="filter-btn" data-filter="telegram" data-i18n="blog.cat4">Telegram</button>
+    </div>
+
+    <div class="blog-grid">
+
+      <a href="#" class="blog-card reveal" data-cat="automation">
+        <div class="blog-card__icon" data-i18n="b1.icon">⚡</div>
+        <div class="blog-card__meta">
+          <span class="blog-card__cat" data-i18n="b1.cat">Автоматизація</span>
+          <span class="blog-card__date" data-i18n="b1.date">10 лют 2026</span>
+        </div>
+        <h3 data-i18n="b1.title">Make vs n8n: що обрати для автоматизації бізнесу у 2026</h3>
+        <p data-i18n="b1.desc">Порівнюємо дві найпопулярніші no-code платформи по ціні, можливостям і сценаріям використання.</p>
+        <span class="blog-card__read" data-i18n="blog.read">Читати →</span>
+      </a>
+
+      <a href="#" class="blog-card reveal" data-cat="ai">
+        <div class="blog-card__icon" data-i18n="b2.icon">🤖</div>
+        <div class="blog-card__meta">
+          <span class="blog-card__cat" data-i18n="b2.cat">AI</span>
+          <span class="blog-card__date" data-i18n="b2.date">5 лют 2026</span>
+        </div>
+        <h3 data-i18n="b2.title">Як AI-агент замінив менеджера підтримки: реальний кейс</h3>
+        <p data-i18n="b2.desc">Що вийшло коли ми замінили частину функцій підтримки на Claude-based агента. Цифри та висновки.</p>
+        <span class="blog-card__read" data-i18n="blog.read">Читати →</span>
+      </a>
+
+      <a href="#" class="blog-card reveal" data-cat="automation">
+        <div class="blog-card__icon" data-i18n="b3.icon">📊</div>
+        <div class="blog-card__meta">
+          <span class="blog-card__cat" data-i18n="b3.cat">Автоматизація</span>
+          <span class="blog-card__date" data-i18n="b3.date">28 січ 2026</span>
+        </div>
+        <h3 data-i18n="b3.title">5 процесів, які можна автоматизувати вже сьогодні</h3>
+        <p data-i18n="b3.desc">Практичний гайд: від простих сповіщень до складних мультикрокових сценаріїв. Без коду.</p>
+        <span class="blog-card__read" data-i18n="blog.read">Читати →</span>
+      </a>
+
+      <a href="#" class="blog-card reveal" data-cat="odoo">
+        <div class="blog-card__icon" data-i18n="b4.icon">🏢</div>
+        <div class="blog-card__meta">
+          <span class="blog-card__cat" data-i18n="b4.cat">Odoo</span>
+          <span class="blog-card__date" data-i18n="b4.date">20 січ 2026</span>
+        </div>
+        <h3 data-i18n="b4.title">Odoo для малого бізнесу: чи варто впроваджувати</h3>
+        <p data-i18n="b4.desc">Чесний огляд переваг і недоліків Odoo Community для компаній з командою 5-50 осіб.</p>
+        <span class="blog-card__read" data-i18n="blog.read">Читати →</span>
+      </a>
+
+      <a href="#" class="blog-card reveal" data-cat="telegram">
+        <div class="blog-card__icon" data-i18n="b5.icon">💬</div>
+        <div class="blog-card__meta">
+          <span class="blog-card__cat" data-i18n="b5.cat">Telegram</span>
+          <span class="blog-card__date" data-i18n="b5.date">15 січ 2026</span>
+        </div>
+        <h3 data-i18n="b5.title">Telegram-бот як CRM: збираємо заявки без зайвих систем</h3>
+        <p data-i18n="b5.desc">Як за 3 дні ми налаштували прийом і обробку заявок через Telegram, замість громіздкого CRM.</p>
+        <span class="blog-card__read" data-i18n="blog.read">Читати →</span>
+      </a>
+
+      <a href="#" class="blog-card reveal" data-cat="ai">
+        <div class="blog-card__icon" data-i18n="b6.icon">🧠</div>
+        <div class="blog-card__meta">
+          <span class="blog-card__cat" data-i18n="b6.cat">AI</span>
+          <span class="blog-card__date" data-i18n="b6.date">8 січ 2026</span>
+        </div>
+        <h3 data-i18n="b6.title">ROI від автоматизації: як порахувати вигоду до впровадження</h3>
+        <p data-i18n="b6.desc">Простий фреймворк для розрахунку потенційної вигоди від автоматизації конкретного процесу.</p>
+        <span class="blog-card__read" data-i18n="blog.read">Читати →</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="cta-banner">
+      <h2 data-i18n="home.cta.h2">Автоматизуємо ваш бізнес</h2>
+      <p data-i18n="home.cta.sub">Залишайте заявку — безкоштовна консультація, без зобов'язань.</p>
+      <div class="btns">
+        <a href="contact.html" class="btn btn--primary btn--lg" data-i18n="nav.cta">Обговорити проєкт</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
+        <p data-i18n="footer.tagline">Автоматизуємо рутину — ви зростаєте.</p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col1">Послуги</h4>
+        <a href="services.html#make" data-i18n="footer.s1">Make / n8n</a>
+        <a href="services.html#ai" data-i18n="footer.s2">AI-агенти</a>
+        <a href="services.html#telegram" data-i18n="footer.s3">Telegram-боти</a>
+        <a href="services.html#odoo" data-i18n="footer.s4">Odoo ERP</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col2">Компанія</h4>
+        <a href="about.html" data-i18n="footer.c1">Про нас</a>
+        <a href="cases.html" data-i18n="footer.c2">Кейси</a>
+        <a href="contact.html" data-i18n="footer.c3">Контакти</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col3">Ресурси</h4>
+        <a href="blog.html" data-i18n="footer.r1">Блог</a>
+        <a href="contact.html#faq" data-i18n="footer.r2">FAQ</a>
+        <a href="https://t.me/your_telegram" target="_blank" data-i18n="footer.r3">Telegram</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer.copy">© 2026 automaticly.org</p>
+      <div class="footer__socials">
+        <a href="https://t.me/your_telegram" target="_blank" title="Telegram">✈</a>
+        <a href="https://linkedin.com" target="_blank" title="LinkedIn">in</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

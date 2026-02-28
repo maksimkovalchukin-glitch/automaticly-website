@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Послуги — Automaticly</title>
+  <meta name="description" content="Make/n8n автоматизація, AI-агенти, Telegram-боти, Odoo ERP. Деталі про кожну послугу." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
+    <nav class="nav__links">
+      <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
+      <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
+      <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
+      <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
+      <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
+      <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="lang-switcher" id="langBtn">EN</button>
+      <a href="contact.html" class="btn btn--primary btn--sm" data-i18n="nav.cta">Обговорити проєкт</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav__mobile" id="mobileMenu">
+    <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
+    <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
+    <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
+    <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
+    <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
+    <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+    <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero__bg"></div>
+  <div class="container page-hero__inner">
+    <div class="page-hero__tag" data-i18n="srv.tag">Послуги</div>
+    <h1 data-i18n="srv.h1">Що ми робимо</h1>
+    <p data-i18n="srv.sub">Комплексні рішення для автоматизації вашого бізнесу</p>
+  </div>
+</section>
+
+<!-- SERVICE 1: MAKE/N8N -->
+<section class="section" id="make">
+  <div class="container">
+    <div class="service-detail reveal">
+      <div class="service-detail__content">
+        <div class="service-detail__badge" data-i18n="srv.s1.badge">⚡ Make / n8n</div>
+        <h2 data-i18n="srv.s1.h2">Автоматизація бізнес-процесів</h2>
+        <p data-i18n="srv.s1.desc">Підключаємо ваші сервіси між собою і налаштовуємо автоматичні сценарії. Без коду — просто, швидко, надійно.</p>
+        <ul class="service-detail__list">
+          <li data-i18n="srv.s1.li1">Інтеграція CRM, Google Workspace, месенджерів, e-commerce</li>
+          <li data-i18n="srv.s1.li2">Автоматичне створення завдань, документів, сповіщень</li>
+          <li data-i18n="srv.s1.li3">Обробка форм, заявок, вхідних даних</li>
+          <li data-i18n="srv.s1.li4">Щоденні / щотижневі авто-звіти</li>
+          <li data-i18n="srv.s1.li5">Міграція зі Zapier або між платформами</li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+      </div>
+      <div class="service-detail__visual">
+        <div class="service-detail__visual-title">Приклад сценарію</div>
+        <div class="flow-step"><span class="flow-step__ico">📋</span><span class="flow-step__label">Нова заявка з форми</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">🗂</span><span class="flow-step__label">Запис у CRM</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">✉️</span><span class="flow-step__label">Автолист клієнту</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">✅</span><span class="flow-step__label">Завдання менеджеру в ClickUp</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">💬</span><span class="flow-step__label">Сповіщення у Slack</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 2: AI -->
+<section class="section section--dark" id="ai">
+  <div class="container">
+    <div class="service-detail service-detail--rev reveal">
+      <div class="service-detail__content">
+        <div class="service-detail__badge" data-i18n="srv.s2.badge">🤖 AI-агенти</div>
+        <h2 data-i18n="srv.s2.h2">Штучний інтелект для вашого бізнесу</h2>
+        <p data-i18n="srv.s2.desc">Будуємо AI-агентів і чатботів, які реально допомагають — відповідають клієнтам, обробляють дані, приймають рішення.</p>
+        <ul class="service-detail__list">
+          <li data-i18n="srv.s2.li1">Чатбот для підтримки на сайті / в Telegram</li>
+          <li data-i18n="srv.s2.li2">AI-агент для обробки вхідних заявок</li>
+          <li data-i18n="srv.s2.li3">Персональний помічник для внутрішніх потреб</li>
+          <li data-i18n="srv.s2.li4">Аналіз та класифікація даних</li>
+          <li data-i18n="srv.s2.li5">Підключення до вашої бази знань або CRM</li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+      </div>
+      <div class="service-detail__visual">
+        <div class="service-detail__visual-title">Як працює AI-агент</div>
+        <div class="flow-step"><span class="flow-step__ico">👤</span><span class="flow-step__label">Клієнт пише запитання</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">🔍</span><span class="flow-step__label">AI шукає у базі знань</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">🧠</span><span class="flow-step__label">Генерує точну відповідь</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">✉️</span><span class="flow-step__label">Відповідає клієнту</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">📊</span><span class="flow-step__label">Записує у CRM</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 3: TELEGRAM -->
+<section class="section" id="telegram">
+  <div class="container">
+    <div class="service-detail reveal">
+      <div class="service-detail__content">
+        <div class="service-detail__badge" data-i18n="srv.s3.badge">📱 Telegram</div>
+        <h2 data-i18n="srv.s3.h2">Telegram-боти для бізнесу</h2>
+        <p data-i18n="srv.s3.desc">Telegram — потужний інструмент для бізнесу. Збираємо заявки, надсилаємо сповіщення, керуємо командою — все в месенджері.</p>
+        <ul class="service-detail__list">
+          <li data-i18n="srv.s3.li1">Бот для прийому заявок та їх обробки</li>
+          <li data-i18n="srv.s3.li2">Авто-сповіщення про події (оплата, замовлення, статус)</li>
+          <li data-i18n="srv.s3.li3">Бот для внутрішніх процесів команди</li>
+          <li data-i18n="srv.s3.li4">AI-помічник у Telegram</li>
+          <li data-i18n="srv.s3.li5">Інтеграція з CRM та іншими системами</li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+      </div>
+      <div class="service-detail__visual">
+        <div class="service-detail__visual-title">Сценарій прийому замовлень</div>
+        <div class="flow-step"><span class="flow-step__ico">💬</span><span class="flow-step__label">Клієнт пише у Telegram</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">📋</span><span class="flow-step__label">Бот збирає деталі замовлення</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">✅</span><span class="flow-step__label">Підтвердження клієнту</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">🗂</span><span class="flow-step__label">Запис у таблицю / CRM</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">🔔</span><span class="flow-step__label">Сповіщення менеджеру</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 4: ODOO -->
+<section class="section section--dark" id="odoo">
+  <div class="container">
+    <div class="service-detail service-detail--rev reveal">
+      <div class="service-detail__content">
+        <div class="service-detail__badge" data-i18n="srv.s4.badge">🏢 Odoo</div>
+        <h2 data-i18n="srv.s4.h2">Odoo ERP / CRM</h2>
+        <p data-i18n="srv.s4.desc">Впроваджуємо і налаштовуємо Odoo під специфіку вашого бізнесу. Від базового CRM до комплексного ERP.</p>
+        <ul class="service-detail__list">
+          <li data-i18n="srv.s4.li1">Впровадження Odoo з нуля або міграція</li>
+          <li data-i18n="srv.s4.li2">Налаштування модулів: CRM, продажі, склад, бухгалтерія</li>
+          <li data-i18n="srv.s4.li3">Розробка кастомних модулів</li>
+          <li data-i18n="srv.s4.li4">Інтеграція з сайтом, месенджерами, іншими системами</li>
+          <li data-i18n="srv.s4.li5">Навчання команди та підтримка</li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+      </div>
+      <div class="service-detail__visual">
+        <div class="service-detail__visual-title">Модулі Odoo</div>
+        <div class="flow-step"><span class="flow-step__ico">👥</span><span class="flow-step__label">CRM — клієнти та угоди</span></div>
+        <div class="flow-step"><span class="flow-step__ico">💼</span><span class="flow-step__label">Продажі — пропозиції та замовлення</span></div>
+        <div class="flow-step"><span class="flow-step__ico">📦</span><span class="flow-step__label">Склад — запаси та доставка</span></div>
+        <div class="flow-step"><span class="flow-step__ico">📊</span><span class="flow-step__label">Бухгалтерія — рахунки та звіти</span></div>
+        <div class="flow-step"><span class="flow-step__ico">🔧</span><span class="flow-step__label">Кастомні модулі під вас</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__tag" data-i18n="srv.faq.tag">FAQ</div>
+      <h2 data-i18n="srv.faq.h2">Часті запитання</h2>
+    </div>
+    <div class="faq">
+      <div class="faq__item">
+        <button class="faq__q"><span data-i18n="srv.faq1.q">Скільки часу займає впровадження?</span><span class="faq__icon">+</span></button>
+        <div class="faq__a"><div class="faq__a-inner" data-i18n="srv.faq1.a">Залежить від складності. Прості автоматизації — 3-7 днів. Комплексні рішення (Odoo, AI-агенти) — 2-8 тижнів.</div></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q"><span data-i18n="srv.faq2.q">Чи потрібні технічні знання з мого боку?</span><span class="faq__icon">+</span></button>
+        <div class="faq__a"><div class="faq__a-inner" data-i18n="srv.faq2.a">Ні. Ми беремо на себе всю технічну частину. Ваша задача — описати бізнес-процес, наша — автоматизувати його.</div></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q"><span data-i18n="srv.faq3.q">Що після запуску?</span><span class="faq__icon">+</span></button>
+        <div class="faq__a"><div class="faq__a-inner" data-i18n="srv.faq3.a">Навчаємо вашу команду, надаємо документацію. Залишаємось на зв'язку для підтримки і розвитку системи.</div></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q"><span data-i18n="srv.faq4.q">Чи можна автоматизувати частково, не всі процеси?</span><span class="faq__icon">+</span></button>
+        <div class="faq__a"><div class="faq__a-inner" data-i18n="srv.faq4.a">Звичайно. Починаємо з найбільш болючого місця і нарощуємо поступово.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="cta-banner">
+      <h2 data-i18n="srv.cta.h2">Є задача? Обговоримо.</h2>
+      <p data-i18n="srv.cta.sub">Безкоштовна консультація — розберемо ваш процес і запропонуємо рішення.</p>
+      <div class="btns">
+        <a href="contact.html" class="btn btn--primary btn--lg" data-i18n="nav.cta">Обговорити проєкт</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
+        <p data-i18n="footer.tagline">Автоматизуємо рутину — ви зростаєте.</p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col1">Послуги</h4>
+        <a href="services.html#make" data-i18n="footer.s1">Make / n8n</a>
+        <a href="services.html#ai" data-i18n="footer.s2">AI-агенти</a>
+        <a href="services.html#telegram" data-i18n="footer.s3">Telegram-боти</a>
+        <a href="services.html#odoo" data-i18n="footer.s4">Odoo ERP</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col2">Компанія</h4>
+        <a href="about.html" data-i18n="footer.c1">Про нас</a>
+        <a href="cases.html" data-i18n="footer.c2">Кейси</a>
+        <a href="contact.html" data-i18n="footer.c3">Контакти</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col3">Ресурси</h4>
+        <a href="blog.html" data-i18n="footer.r1">Блог</a>
+        <a href="contact.html#faq" data-i18n="footer.r2">FAQ</a>
+        <a href="https://t.me/your_telegram" target="_blank" data-i18n="footer.r3">Telegram</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer.copy">© 2026 automaticly.org</p>
+      <div class="footer__socials">
+        <a href="https://t.me/your_telegram" target="_blank" title="Telegram">✈</a>
+        <a href="https://linkedin.com" target="_blank" title="LinkedIn">in</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

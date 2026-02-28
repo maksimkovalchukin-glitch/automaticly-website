@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Про нас — Automaticly</title>
+  <meta name="description" content="Дізнайтесь хто ми, наша місія та цінності. Команда automaticly.org — автоматизація бізнесу." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
+    <nav class="nav__links">
+      <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
+      <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
+      <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
+      <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
+      <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
+      <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="lang-switcher" id="langBtn">EN</button>
+      <a href="contact.html" class="btn btn--primary btn--sm" data-i18n="nav.cta">Обговорити проєкт</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav__mobile" id="mobileMenu">
+    <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
+    <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
+    <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
+    <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
+    <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
+    <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+    <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero__bg"></div>
+  <div class="container page-hero__inner">
+    <div class="page-hero__tag" data-i18n="about.tag">Про нас</div>
+    <h1 data-i18n="about.h1">Хто ми</h1>
+    <p data-i18n="about.sub">Команда, яка перетворює рутину на автоматику</p>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="section" id="story">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__tag" data-i18n="about.story.tag">Наша історія</div>
+      <h2 data-i18n="about.story.h2">Як все починалось</h2>
+    </div>
+    <div class="about-intro">
+      <div class="about-intro__content reveal">
+        <p data-i18n="about.story.p1">Ми розпочали з простого спостереження: більшість бізнесів витрачає сотні годин на щомісяць на роботу, яку можна автоматизувати. Таблиці, листи, ручне перенесення даних — все це з'їдає час і гроші.</p>
+        <p data-i18n="about.story.p2" style="margin-top:16px">automaticly виникла щоб змінити це. Ми будуємо системи, де рутина зникає, а команди фокусуються на тому, що справді важливо — зростанні та клієнтах.</p>
+      </div>
+      <div class="about-intro__visual reveal">
+        <div class="about-stat">
+          <div class="about-stat__num" data-i18n="about.stat1.n">50+</div>
+          <div class="about-stat__text" data-i18n="about.stat1.l">реалізованих проєктів</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat__num" data-i18n="about.stat2.n">10×</div>
+          <div class="about-stat__text" data-i18n="about.stat2.l">середнє пришвидшення процесів</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat__num" data-i18n="about.stat3.n">100%</div>
+          <div class="about-stat__text" data-i18n="about.stat3.l">клієнтів рекомендують нас</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION -->
+<section class="section section--dark">
+  <div class="container" style="max-width:760px">
+    <div class="section__header">
+      <div class="section__tag" data-i18n="about.mission.tag">Місія</div>
+      <h2 data-i18n="about.mission.h2">Навіщо ми існуємо</h2>
+    </div>
+    <div class="cta-banner reveal">
+      <p style="font-size:1.1rem;color:var(--text);line-height:1.8" data-i18n="about.mission.text">Ми віримо, що кожен бізнес заслуговує на інструменти великих корпорацій — без їхніх бюджетів. Наша місія — зробити автоматизацію доступною, зрозумілою і реально корисною для малого і середнього бізнесу.</p>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__tag" data-i18n="about.values.tag">Цінності</div>
+      <h2 data-i18n="about.values.h2">На чому ми будуємось</h2>
+    </div>
+    <div class="values">
+      <div class="value-card reveal">
+        <div class="value-card__icon" data-i18n="about.v1.icon">🎯</div>
+        <h3 data-i18n="about.v1.title">Результат, не процес</h3>
+        <p data-i18n="about.v1.desc">Нас цікавить реальний ефект для вашого бізнесу, а не кількість налаштованих сценаріїв.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-card__icon" data-i18n="about.v2.icon">🔍</div>
+        <h3 data-i18n="about.v2.title">Прозорість</h3>
+        <p data-i18n="about.v2.desc">Ви знаєте що відбувається на кожному кроці. Без сюрпризів, без прихованих дій.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-card__icon" data-i18n="about.v3.icon">⚡</div>
+        <h3 data-i18n="about.v3.title">Швидкість</h3>
+        <p data-i18n="about.v3.desc">Цінуємо ваш час. Від першого дзвінка до запуску — максимально швидко і без зайвої бюрократії.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-card__icon" data-i18n="about.v4.icon">🤝</div>
+        <h3 data-i18n="about.v4.title">Партнерство</h3>
+        <p data-i18n="about.v4.desc">Не просто виконавці. Ми занурюємось у ваш бізнес і думаємо як ваші партнери.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__tag" data-i18n="about.why.tag">Чому ми</div>
+      <h2 data-i18n="about.why.h2">Чому обирають automaticly</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item reveal">
+        <div class="why-item__num">01</div>
+        <div>
+          <h3 data-i18n="about.why1.title">Практичний досвід</h3>
+          <p data-i18n="about.why1.desc">Ми реалізували 50+ проєктів у різних нішах. Знаємо типові підводні камені і як їх уникнути.</p>
+        </div>
+      </div>
+      <div class="why-item reveal">
+        <div class="why-item__num">02</div>
+        <div>
+          <h3 data-i18n="about.why2.title">Full-stack автоматизація</h3>
+          <p data-i18n="about.why2.desc">Make, n8n, AI-агенти, Telegram, Odoo — все в одному місці. Не потрібно шукати різних підрядників.</p>
+        </div>
+      </div>
+      <div class="why-item reveal">
+        <div class="why-item__num">03</div>
+        <div>
+          <h3 data-i18n="about.why3.title">Швидкий старт</h3>
+          <p data-i18n="about.why3.desc">Перша автоматизація запускається за 1-2 тижні. Бачите результат до того, як оплачуєте повний проєкт.</p>
+        </div>
+      </div>
+      <div class="why-item reveal">
+        <div class="why-item__num">04</div>
+        <div>
+          <h3 data-i18n="about.why4.title">Підтримка після запуску</h3>
+          <p data-i18n="about.why4.desc">Залишаємось на зв'язку, допомагаємо розвивати систему і адаптуватись до змін у бізнесі.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <h2 data-i18n="about.cta.h2">Готові автоматизувати?</h2>
+      <p data-i18n="about.cta.sub">Напишіть нам — розберемо вашу задачу на безкоштовній консультації.</p>
+      <div class="btns">
+        <a href="contact.html" class="btn btn--primary btn--lg" data-i18n="nav.cta">Обговорити проєкт</a>
+        <a href="cases.html" class="btn btn--ghost btn--lg" data-i18n="nav.cases">Переглянути кейси</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
+        <p data-i18n="footer.tagline">Автоматизуємо рутину — ви зростаєте.</p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col1">Послуги</h4>
+        <a href="services.html#make" data-i18n="footer.s1">Make / n8n</a>
+        <a href="services.html#ai" data-i18n="footer.s2">AI-агенти</a>
+        <a href="services.html#telegram" data-i18n="footer.s3">Telegram-боти</a>
+        <a href="services.html#odoo" data-i18n="footer.s4">Odoo ERP</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col2">Компанія</h4>
+        <a href="about.html" data-i18n="footer.c1">Про нас</a>
+        <a href="cases.html" data-i18n="footer.c2">Кейси</a>
+        <a href="contact.html" data-i18n="footer.c3">Контакти</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer.col3">Ресурси</h4>
+        <a href="blog.html" data-i18n="footer.r1">Блог</a>
+        <a href="contact.html#faq" data-i18n="footer.r2">FAQ</a>
+        <a href="https://t.me/your_telegram" target="_blank" data-i18n="footer.r3">Telegram</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer.copy">© 2026 automaticly.org</p>
+      <div class="footer__socials">
+        <a href="https://t.me/your_telegram" target="_blank" title="Telegram">✈</a>
+        <a href="https://linkedin.com" target="_blank" title="LinkedIn">in</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
