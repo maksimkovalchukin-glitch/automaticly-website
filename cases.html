@@ -73,6 +73,25 @@
 
     <div class="cases-grid">
 
+      <div class="case-card case-card--featured reveal" data-cat="ai">
+        <span class="case-card__tag">AI / n8n</span>
+        <h3>AI-оцінка дзвінків кол-центру — Rayton Energy</h3>
+        <div class="case-card__body">
+          <div class="case-block">
+            <div class="case-block__label">Задача</div>
+            <div class="case-block__text">Супервізор слухав записи дзвінків вручну — 2–3 год/день. Оцінка суб'єктивна, немає єдиного стандарту якості для операторів.</div>
+          </div>
+          <div class="case-block">
+            <div class="case-block__label">Рішення</div>
+            <div class="case-block__text">n8n-воркфлоу: запис дзвінка → транскрибація AssemblyAI (українська, розмітка по спікерах) → 4 паралельні AI-агенти оцінюють привітання, аналіз потреб, презентацію рішення, укладення угоди → 100-бальна система → авто-звіт у Pipedrive CRM + рядок у Google Sheets.</div>
+          </div>
+        </div>
+        <div class="case-card__result">
+          <div class="case-card__result-num">100%</div>
+          <div class="case-card__result-label">дзвінків оцінено автоматично</div>
+        </div>
+      </div>
+
       <div class="case-card reveal" data-cat="make">
         <span class="case-card__tag" data-i18n="c1.tag">Make / n8n</span>
         <h3 data-i18n="c1.title">Автоматизація обробки заявок для SaaS</h3>
@@ -215,6 +234,7 @@
       <div class="footer__col">
         <h4 data-i18n="footer.col1">Послуги</h4>
         <a href="services.html#make" data-i18n="footer.s1">Make / n8n</a>
+        <a href="services.html#n8n-selfhost">Self-hosted n8n</a>
         <a href="services.html#ai" data-i18n="footer.s2">AI-агенти</a>
         <a href="services.html#telegram" data-i18n="footer.s3">Telegram-боти</a>
         <a href="services.html#odoo" data-i18n="footer.s4">Odoo ERP</a>

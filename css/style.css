@@ -328,6 +328,10 @@ a  { color: inherit; }
 }
 .case-card__result-num { font-size: 1.3rem; font-weight: 800; color: var(--accent); line-height: 1; }
 .case-card__result-label { font-size: 0.82rem; color: var(--text-muted); }
+.case-card--featured { grid-column: 1 / -1; border-color: rgba(0,229,176,.3); }
+.case-card--featured h3 { font-size: 1.2rem; }
+.case-card--featured .case-card__body { flex-direction: row; gap: 20px; }
+@media(max-width:640px) { .case-card--featured .case-card__body { flex-direction: column; } }
 
 /* ===== BLOG ===== */
 .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
