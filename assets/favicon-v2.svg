@@ -7,13 +7,14 @@
       <stop offset="100%" stop-color="#00e5b0"/>
     </linearGradient>
   </defs>
-  <!-- "A" letterform — two legs, no crossbar, white -->
-  <path fill="white" d="M 1 46 L 21 2 L 27 2 L 9 46 Z M 47 46 L 27 2 L 21 2 L 39 46 Z"/>
-  <!-- Wave swoosh cutting through the A -->
+  <!-- A letterform: two legs, no crossbar, evenodd hole -->
+  <path fill="white" fill-rule="evenodd"
+        d="M 24 2 L 1 46 L 47 46 Z M 24 10 L 12 46 L 36 46 Z"/>
+  <!-- Wave swoosh as crossbar -->
   <path fill="url(#wg)"
-        d="M 0 30 C 5 37,16 40,24 35
-           C 32 30,40 18,48 14
-           L 48 21
-           C 40 24,32 37,24 42
-           C 16 46,5 43,0 37 Z"/>
+        d="M 0 29 C 5 35,16 40,24 35
+           C 32 30,40 19,48 16
+           L 48 22
+           C 40 25,32 36,24 41
+           C 16 46,5 43,0 35 Z"/>
 </svg>
