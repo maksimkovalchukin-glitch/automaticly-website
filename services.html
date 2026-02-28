@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Послуги — Automaticly</title>
-  <meta name="description" content="Make/n8n автоматизація, AI-агенти, Telegram-боти, Odoo ERP. Деталі про кожну послугу." />
+  <title>Продукти — Automaticly | Telegram-боти, AI-ресепшн, CRM, аналіз дзвінків</title>
+  <meta name="description" content="5 готових AI-продуктів: Telegram-бот від $500, AI Ресепшн від $600, автоматизація заявок від $300, аналіз дзвінків від $1200, міграція на n8n від $350." />
+  <link rel="canonical" href="https://automaticly.org/services.html" />
+  <meta property="og:title" content="Продукти — Automaticly" />
+  <meta property="og:description" content="5 готових AI-продуктів для малого бізнесу з фіксованою ціною." />
+  <meta property="og:url" content="https://automaticly.org/services.html" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="css/style.css" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
@@ -26,27 +31,24 @@
   <div class="container nav__inner">
     <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
     <nav class="nav__links">
-      <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
-      <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
-      <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
-      <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
-      <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
-      <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
+      <a href="index.html" data-nav="home">Головна</a>
+      <a href="services.html" data-nav="services">Продукти</a>
+      <a href="cases.html" data-nav="cases">Кейси</a>
+      <a href="about.html" data-nav="about">Про нас</a>
+      <a href="contact.html" data-nav="contact">Контакти</a>
     </nav>
     <div class="nav__actions">
-      <button class="lang-switcher" id="langBtn">EN</button>
-      <a href="contact.html" class="btn btn--primary btn--sm" data-i18n="nav.cta">Обговорити проєкт</a>
+      <a href="contact.html" class="btn btn--primary btn--sm">Обговорити задачу</a>
     </div>
-    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <button class="nav__burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
   </div>
   <div class="nav__mobile" id="mobileMenu">
-    <a href="index.html" data-nav="home" data-i18n="nav.home">Головна</a>
-    <a href="services.html" data-nav="services" data-i18n="nav.services">Послуги</a>
-    <a href="cases.html" data-nav="cases" data-i18n="nav.cases">Кейси</a>
-    <a href="about.html" data-nav="about" data-i18n="nav.about">Про нас</a>
-    <a href="blog.html" data-nav="blog" data-i18n="nav.blog">Блог</a>
-    <a href="contact.html" data-nav="contact" data-i18n="nav.contact">Контакти</a>
-    <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+    <a href="index.html" data-nav="home">Головна</a>
+    <a href="services.html" data-nav="services">Продукти</a>
+    <a href="cases.html" data-nav="cases">Кейси</a>
+    <a href="about.html" data-nav="about">Про нас</a>
+    <a href="contact.html" data-nav="contact">Контакти</a>
+    <a href="contact.html" class="btn btn--primary">Обговорити задачу</a>
   </div>
 </header>
 
@@ -54,175 +56,204 @@
 <section class="page-hero">
   <div class="page-hero__bg"></div>
   <div class="container page-hero__inner">
-    <div class="page-hero__tag" data-i18n="srv.tag">Послуги</div>
-    <h1 data-i18n="srv.h1">Що ми робимо</h1>
-    <p data-i18n="srv.sub">Комплексні рішення для автоматизації вашого бізнесу</p>
+    <div class="page-hero__tag">Продукти</div>
+    <h1>Готові рішення — фіксована ціна</h1>
+    <p>Не «зробимо все що скажете», а конкретні продукти з зрозумілим результатом і терміном впровадження</p>
   </div>
 </section>
 
-<!-- SERVICE 1: MAKE/N8N -->
-<section class="section" id="make">
+<!-- PRODUCT 1: TELEGRAM BOT -->
+<section class="section" id="tg-bot">
   <div class="container">
     <div class="service-detail reveal">
       <div class="service-detail__content">
-        <div class="service-detail__badge" data-i18n="srv.s1.badge">⚡ Make / n8n</div>
-        <h2 data-i18n="srv.s1.h2">Автоматизація бізнес-процесів</h2>
-        <p data-i18n="srv.s1.desc">Підключаємо ваші сервіси між собою і налаштовуємо автоматичні сценарії. Без коду — просто, швидко, надійно.</p>
+        <div class="service-detail__badge">📱 Telegram-бот</div>
+        <h2>Telegram-бот для прийому замовлень</h2>
+        <p class="service-detail__price-line">від <strong>$500</strong> · <span>1–2 дні</span></p>
+        <p>88% українців у Telegram — клієнти хочуть писати туди. Бот приймає замовлення, збирає деталі, записує в таблицю і сповіщає менеджера. Ви не витрачаєте час на моніторинг чатів.</p>
         <ul class="service-detail__list">
-          <li data-i18n="srv.s1.li1">Інтеграція CRM, Google Workspace, месенджерів, e-commerce</li>
-          <li data-i18n="srv.s1.li2">Автоматичне створення завдань, документів, сповіщень</li>
-          <li data-i18n="srv.s1.li3">Обробка форм, заявок, вхідних даних</li>
-          <li data-i18n="srv.s1.li4">Щоденні / щотижневі авто-звіти</li>
-          <li data-i18n="srv.s1.li5">Міграція зі Zapier або між платформами</li>
+          <li>Прийом замовлень через зручне меню або вільний текст</li>
+          <li>Автоматичний запис у Google Sheets або CRM</li>
+          <li>Сповіщення менеджеру з деталями замовлення</li>
+          <li>Підтвердження клієнту з підсумком і наступними кроками</li>
+          <li>AI-відповіді на типові питання про товари / ціни</li>
         </ul>
-        <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+        <p class="service-detail__for"><strong>Кому підходить:</strong> інтернет-магазини, служби доставки, майстерні, кав'ярні, будь-який бізнес де є Telegram-канал або чат.</p>
+        <a href="contact.html" class="btn btn--primary">Обговорити задачу</a>
       </div>
       <div class="service-detail__visual">
-        <div class="service-detail__visual-title">Приклад сценарію</div>
-        <div class="flow-step"><span class="flow-step__ico">📋</span><span class="flow-step__label">Нова заявка з форми</span></div>
+        <div class="service-detail__visual-title">Як це працює</div>
+        <div class="flow-step"><span class="flow-step__ico">💬</span><span class="flow-step__label">Клієнт пише в Telegram</span></div>
         <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">🗂</span><span class="flow-step__label">Запис у CRM</span></div>
+        <div class="flow-step"><span class="flow-step__ico">🤖</span><span class="flow-step__label">Бот збирає деталі замовлення</span></div>
         <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">✉️</span><span class="flow-step__label">Автолист клієнту</span></div>
-        <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">✅</span><span class="flow-step__label">Завдання менеджеру в ClickUp</span></div>
-        <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">💬</span><span class="flow-step__label">Сповіщення у Slack</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICE 2: AI -->
-<section class="section section--dark" id="ai">
-  <div class="container">
-    <div class="service-detail service-detail--rev reveal">
-      <div class="service-detail__content">
-        <div class="service-detail__badge" data-i18n="srv.s2.badge">🤖 AI-агенти</div>
-        <h2 data-i18n="srv.s2.h2">Штучний інтелект для вашого бізнесу</h2>
-        <p data-i18n="srv.s2.desc">Будуємо AI-агентів і чатботів, які реально допомагають — відповідають клієнтам, обробляють дані, приймають рішення.</p>
-        <ul class="service-detail__list">
-          <li data-i18n="srv.s2.li1">Чатбот для підтримки на сайті / в Telegram</li>
-          <li data-i18n="srv.s2.li2">AI-агент для обробки вхідних заявок</li>
-          <li data-i18n="srv.s2.li3">Персональний помічник для внутрішніх потреб</li>
-          <li data-i18n="srv.s2.li4">Аналіз та класифікація даних</li>
-          <li data-i18n="srv.s2.li5">Підключення до вашої бази знань або CRM</li>
-        </ul>
-        <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
-      </div>
-      <div class="service-detail__visual">
-        <div class="service-detail__visual-title">Як працює AI-агент</div>
-        <div class="flow-step"><span class="flow-step__ico">👤</span><span class="flow-step__label">Клієнт пише запитання</span></div>
-        <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">🔍</span><span class="flow-step__label">AI шукає у базі знань</span></div>
-        <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">🧠</span><span class="flow-step__label">Генерує точну відповідь</span></div>
-        <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">✉️</span><span class="flow-step__label">Відповідає клієнту</span></div>
-        <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">📊</span><span class="flow-step__label">Записує у CRM</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICE 3: TELEGRAM -->
-<section class="section" id="telegram">
-  <div class="container">
-    <div class="service-detail reveal">
-      <div class="service-detail__content">
-        <div class="service-detail__badge" data-i18n="srv.s3.badge">📱 Telegram</div>
-        <h2 data-i18n="srv.s3.h2">Telegram-боти для бізнесу</h2>
-        <p data-i18n="srv.s3.desc">Telegram — потужний інструмент для бізнесу. Збираємо заявки, надсилаємо сповіщення, керуємо командою — все в месенджері.</p>
-        <ul class="service-detail__list">
-          <li data-i18n="srv.s3.li1">Бот для прийому заявок та їх обробки</li>
-          <li data-i18n="srv.s3.li2">Авто-сповіщення про події (оплата, замовлення, статус)</li>
-          <li data-i18n="srv.s3.li3">Бот для внутрішніх процесів команди</li>
-          <li data-i18n="srv.s3.li4">AI-помічник у Telegram</li>
-          <li data-i18n="srv.s3.li5">Інтеграція з CRM та іншими системами</li>
-        </ul>
-        <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
-      </div>
-      <div class="service-detail__visual">
-        <div class="service-detail__visual-title">Сценарій прийому замовлень</div>
-        <div class="flow-step"><span class="flow-step__ico">💬</span><span class="flow-step__label">Клієнт пише у Telegram</span></div>
-        <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">📋</span><span class="flow-step__label">Бот збирає деталі замовлення</span></div>
-        <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">✅</span><span class="flow-step__label">Підтвердження клієнту</span></div>
-        <div class="flow-arrow">↓</div>
-        <div class="flow-step"><span class="flow-step__ico">🗂</span><span class="flow-step__label">Запис у таблицю / CRM</span></div>
+        <div class="flow-step"><span class="flow-step__ico">📊</span><span class="flow-step__label">Запис у Google Sheets / CRM</span></div>
         <div class="flow-arrow">↓</div>
         <div class="flow-step"><span class="flow-step__ico">🔔</span><span class="flow-step__label">Сповіщення менеджеру</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">✅</span><span class="flow-step__label">Підтвердження клієнту</span></div>
+        <div class="service-detail__price-block">
+          <div class="price-val">від $500</div>
+          <div class="price-time">⏱ 1–2 дні</div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SERVICE 4: ODOO -->
-<section class="section section--dark" id="odoo">
+<!-- PRODUCT 2: AI RECEPTIONIST -->
+<section class="section section--dark" id="ai-receptionist">
   <div class="container">
     <div class="service-detail service-detail--rev reveal">
       <div class="service-detail__content">
-        <div class="service-detail__badge" data-i18n="srv.s4.badge">🏢 Odoo</div>
-        <h2 data-i18n="srv.s4.h2">Odoo ERP / CRM</h2>
-        <p data-i18n="srv.s4.desc">Впроваджуємо і налаштовуємо Odoo під специфіку вашого бізнесу. Від базового CRM до комплексного ERP.</p>
+        <div class="service-detail__badge">🤖 AI Ресепшн</div>
+        <h2>AI Ресепшн на сайт або Telegram</h2>
+        <p class="service-detail__price-line">від <strong>$600</strong> · <span>2–3 дні</span></p>
+        <p>Компанії що відповідають протягом 5 хвилин кваліфікують лідів у 21 раз ефективніше. AI-ресепшн відповідає миттєво — вдень, вночі, у вихідні. Кваліфікує клієнта і передає менеджеру тільки готового до розмови ліда.</p>
         <ul class="service-detail__list">
-          <li data-i18n="srv.s4.li1">Впровадження Odoo з нуля або міграція</li>
-          <li data-i18n="srv.s4.li2">Налаштування модулів: CRM, продажі, склад, бухгалтерія</li>
-          <li data-i18n="srv.s4.li3">Розробка кастомних модулів</li>
-          <li data-i18n="srv.s4.li4">Інтеграція з сайтом, месенджерами, іншими системами</li>
-          <li data-i18n="srv.s4.li5">Навчання команди та підтримка</li>
+          <li>Відповіді на питання про послуги, ціни, умови роботи</li>
+          <li>Кваліфікація ліда: збирає бюджет, потребу, терміни</li>
+          <li>Запис на зустріч або дзвінок з менеджером</li>
+          <li>Передача готового профілю ліда в CRM або Telegram</li>
+          <li>Навчений на інформації про ваш бізнес</li>
         </ul>
-        <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Обговорити проєкт</a>
+        <p class="service-detail__for"><strong>Кому підходить:</strong> B2B-послуги, консалтинг, нерухомість, юридичні та медичні послуги, digital-агентства.</p>
+        <a href="contact.html" class="btn btn--primary">Обговорити задачу</a>
       </div>
       <div class="service-detail__visual">
-        <div class="service-detail__visual-title">Модулі Odoo</div>
-        <div class="flow-step"><span class="flow-step__ico">👥</span><span class="flow-step__label">CRM — клієнти та угоди</span></div>
-        <div class="flow-step"><span class="flow-step__ico">💼</span><span class="flow-step__label">Продажі — пропозиції та замовлення</span></div>
-        <div class="flow-step"><span class="flow-step__ico">📦</span><span class="flow-step__label">Склад — запаси та доставка</span></div>
-        <div class="flow-step"><span class="flow-step__ico">📊</span><span class="flow-step__label">Бухгалтерія — рахунки та звіти</span></div>
-        <div class="flow-step"><span class="flow-step__ico">🔧</span><span class="flow-step__label">Кастомні модулі під вас</span></div>
+        <div class="service-detail__visual-title">Як це працює</div>
+        <div class="flow-step"><span class="flow-step__ico">👤</span><span class="flow-step__label">Клієнт пише питання на сайті</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">🧠</span><span class="flow-step__label">AI відповідає і задає питання</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">📋</span><span class="flow-step__label">Збирає бюджет, потребу, терміни</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">📤</span><span class="flow-step__label">Профіль ліда → менеджер</span></div>
+        <div class="service-detail__price-block">
+          <div class="price-val">від $600</div>
+          <div class="price-time">⏱ 2–3 дні</div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SERVICE 5: N8N SELF-HOST -->
-<section class="section" id="n8n-selfhost">
+<!-- PRODUCT 3: LEAD → CRM -->
+<section class="section" id="lead-crm">
+  <div class="container">
+    <div class="service-detail reveal">
+      <div class="service-detail__content">
+        <div class="service-detail__badge">⚡ Автоматизація заявок</div>
+        <h2>Автоматична обробка заявок → CRM</h2>
+        <p class="service-detail__price-line">від <strong>$300</strong> · <span>3–5 годин</span></p>
+        <p>Заявка з сайту, пошти або форми — автоматично потрапляє в CRM, клієнт отримує підтвердження, менеджер — задачу. Жодного ручного копіювання. Окупається за перший тиждень роботи.</p>
+        <ul class="service-detail__list">
+          <li>Підключення форм із сайту (Tilda, WordPress, будь-яка)</li>
+          <li>Автоматичний запис ліда в Pipedrive, HubSpot або Google Sheets</li>
+          <li>Авто-лист клієнту з підтвердженням і наступними кроками</li>
+          <li>Задача менеджеру в CRM або Telegram</li>
+          <li>AI-класифікація заявки: пріоритет, тип, джерело</li>
+        </ul>
+        <p class="service-detail__for"><strong>Кому підходить:</strong> будь-який бізнес де є форма на сайті і більше 5 заявок на день.</p>
+        <a href="contact.html" class="btn btn--primary">Обговорити задачу</a>
+      </div>
+      <div class="service-detail__visual">
+        <div class="service-detail__visual-title">Як це працює</div>
+        <div class="flow-step"><span class="flow-step__ico">📋</span><span class="flow-step__label">Нова заявка з форми / пошти</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">🏷</span><span class="flow-step__label">AI класифікує: тип, пріоритет</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">🗂</span><span class="flow-step__label">Запис у CRM + задача менеджеру</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">✉️</span><span class="flow-step__label">Авто-лист клієнту</span></div>
+        <div class="service-detail__price-block">
+          <div class="price-val">від $300</div>
+          <div class="price-time">⏱ 3–5 годин</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT 4: CALL ANALYSIS -->
+<section class="section section--dark" id="call-analysis">
+  <div class="container">
+    <div class="service-detail service-detail--rev reveal">
+      <div class="service-detail__content">
+        <div class="service-detail__badge">📞 AI-аналіз дзвінків</div>
+        <h2>AI-аналіз якості дзвінків</h2>
+        <p class="service-detail__price-line">від <strong>$1 200</strong> · <span>3–5 днів</span></p>
+        <p>Готові SaaS-платформи для аналізу дзвінків коштують $500+/місяць. Ми будуємо систему одноразово на вашому сервері: 100% дзвінків транскрибуються і оцінюються по 100-бальній шкалі автоматично, без участі супервізора.</p>
+        <ul class="service-detail__list">
+          <li>Транскрибація дзвінків (Ukrainian, Speaker Labels)</li>
+          <li>AI оцінює: привітання, виявлення потреб, презентація, угода</li>
+          <li>100-бальна система + відсоток зацікавленості клієнта</li>
+          <li>Автоматичний звіт у CRM (Pipedrive та ін.)</li>
+          <li>Щоденна таблиця результатів у Google Sheets</li>
+        </ul>
+        <p class="service-detail__for"><strong>Кому підходить:</strong> кол-центри, відділи продажів від 3+ операторів, компанії що хочуть підвищити конверсію дзвінків.</p>
+        <a href="contact.html" class="btn btn--primary">Обговорити задачу</a>
+      </div>
+      <div class="service-detail__visual">
+        <div class="service-detail__visual-title">Як це працює</div>
+        <div class="flow-step"><span class="flow-step__ico">📼</span><span class="flow-step__label">Запис дзвінка → система</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">✍️</span><span class="flow-step__label">Транскрибація AssemblyAI (укр.)</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">🧠</span><span class="flow-step__label">4 AI-агенти оцінюють якість</span></div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step"><span class="flow-step__ico">📊</span><span class="flow-step__label">Звіт у Pipedrive + Google Sheets</span></div>
+        <div class="service-detail__price-block">
+          <div class="price-val">від $1 200</div>
+          <div class="price-time">⏱ 3–5 днів</div>
+          <div class="price-note">Аналоги SaaS: $500+/міс</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT 5: N8N MIGRATION -->
+<section class="section" id="n8n-migration">
   <div class="container">
     <div class="service-detail reveal">
       <div class="service-detail__content">
         <div class="service-detail__badge">💸 Self-hosted n8n</div>
         <h2>Міграція Make → self-hosted n8n</h2>
-        <p>Замість щомісячної підписки Make — розгортаємо n8n на вашому сервері. Платите тільки за хостинг: ~$5–10/міс замість $50–200+ на Make. Усі ваші сценарії — без змін у логіці.</p>
+        <p class="service-detail__price-line">від <strong>$350</strong> · <span>2–4 дні</span></p>
+        <p>Make стягує $50–200+/місяць залежно від обсягу операцій. Self-hosted n8n на VPS коштує ~$6/місяць — без лімітів, без підписки, ваші дані тільки у вас. Переносимо всі сценарії без втрати логіки.</p>
         <ul class="service-detail__list">
-          <li>Аудит поточних Make-сценаріїв та оцінка економії</li>
-          <li>Розгортання n8n на VPS (DigitalOcean, Hetzner, власний)</li>
-          <li>Повна міграція автоматизацій з Make → n8n</li>
-          <li>Налаштування автооновлень, бекапів, моніторингу</li>
-          <li>Навчання команди та підтримка після запуску</li>
+          <li>Аудит поточних Make-сценаріїв</li>
+          <li>Розгортання n8n на VPS (Hetzner, DigitalOcean або ваш сервер)</li>
+          <li>Повна міграція всіх автоматизацій</li>
+          <li>Налаштування бекапів, моніторингу, автооновлень</li>
+          <li>Навчання команди — 1 год онлайн</li>
         </ul>
+        <p class="service-detail__for"><strong>Кому підходить:</strong> будь-хто хто вже використовує Make або Zapier і хоче скоротити витрати без втрати функціоналу.</p>
         <a href="contact.html" class="btn btn--primary">Розрахувати економію</a>
       </div>
       <div class="service-detail__visual">
-        <div class="service-detail__visual-title">Порівняння витрат</div>
-        <div class="flow-step" style="background:rgba(255,80,80,.08);border-color:rgba(255,80,80,.2)">
+        <div class="service-detail__visual-title">Економія на рік</div>
+        <div class="flow-step" style="background:rgba(239,68,68,.05);border-color:rgba(239,68,68,.2)">
           <span class="flow-step__ico">💳</span>
-          <span class="flow-step__label">Make Pro — від $16/міс (обмежені операції)</span>
+          <span class="flow-step__label">Make Pro — $192/рік</span>
         </div>
-        <div class="flow-step" style="background:rgba(255,80,80,.08);border-color:rgba(255,80,80,.2)">
+        <div class="flow-step" style="background:rgba(239,68,68,.05);border-color:rgba(239,68,68,.2)">
           <span class="flow-step__ico">💳</span>
-          <span class="flow-step__label">Make Teams — від $59/міс (ліміти на сценарії)</span>
+          <span class="flow-step__label">Make Teams — $708/рік</span>
         </div>
-        <div class="flow-arrow">↓ міграція</div>
-        <div class="flow-step" style="background:rgba(0,229,176,.08);border-color:rgba(0,229,176,.25)">
+        <div class="flow-arrow">↓ після міграції</div>
+        <div class="flow-step" style="background:rgba(0,184,132,.07);border-color:rgba(0,184,132,.25)">
           <span class="flow-step__ico">🚀</span>
-          <span class="flow-step__label">Self-hosted n8n — ~$6/міс VPS, безліміт</span>
+          <span class="flow-step__label">Self-hosted n8n — ~$72/рік VPS</span>
         </div>
-        <div class="flow-step" style="background:rgba(0,229,176,.08);border-color:rgba(0,229,176,.25)">
+        <div class="flow-step" style="background:rgba(0,184,132,.07);border-color:rgba(0,184,132,.25)">
           <span class="flow-step__ico">✅</span>
-          <span class="flow-step__label">Ваші дані — тільки на вашому сервері</span>
+          <span class="flow-step__label">Безліміт сценаріїв і операцій</span>
+        </div>
+        <div class="service-detail__price-block">
+          <div class="price-val">від $350</div>
+          <div class="price-time">⏱ 2–4 дні</div>
         </div>
       </div>
     </div>
@@ -230,41 +261,45 @@
 </section>
 
 <!-- FAQ -->
-<section class="section section--dark">
+<section class="section section--dark" id="faq">
   <div class="container">
     <div class="section__header">
-      <div class="section__tag" data-i18n="srv.faq.tag">FAQ</div>
-      <h2 data-i18n="srv.faq.h2">Часті запитання</h2>
+      <div class="section__tag">FAQ</div>
+      <h2>Часті запитання</h2>
     </div>
     <div class="faq">
       <div class="faq__item">
-        <button class="faq__q"><span data-i18n="srv.faq1.q">Скільки часу займає впровадження?</span><span class="faq__icon">+</span></button>
-        <div class="faq__a"><div class="faq__a-inner" data-i18n="srv.faq1.a">Залежить від складності. Прості автоматизації — 3-7 днів. Комплексні рішення (Odoo, AI-агенти) — 2-8 тижнів.</div></div>
+        <button class="faq__q"><span>Як відбувається оплата?</span><span class="faq__icon">+</span></button>
+        <div class="faq__a"><div class="faq__a-inner">50% аванс перед стартом — на ФОП або крипту. Решта 50% після здачі проєкту і вашого підтвердження що все працює.</div></div>
       </div>
       <div class="faq__item">
-        <button class="faq__q"><span data-i18n="srv.faq2.q">Чи потрібні технічні знання з мого боку?</span><span class="faq__icon">+</span></button>
-        <div class="faq__a"><div class="faq__a-inner" data-i18n="srv.faq2.a">Ні. Ми беремо на себе всю технічну частину. Ваша задача — описати бізнес-процес, наша — автоматизувати його.</div></div>
+        <button class="faq__q"><span>Скільки часу займає впровадження?</span><span class="faq__icon">+</span></button>
+        <div class="faq__a"><div class="faq__a-inner">Залежить від продукту: автоматизація заявок — 3–5 годин, Telegram-бот — 1–2 дні, AI Ресепшн — 2–3 дні, аналіз дзвінків або n8n-міграція — 3–5 днів. Терміни фіксуємо до початку роботи.</div></div>
       </div>
       <div class="faq__item">
-        <button class="faq__q"><span data-i18n="srv.faq3.q">Що після запуску?</span><span class="faq__icon">+</span></button>
-        <div class="faq__a"><div class="faq__a-inner" data-i18n="srv.faq3.a">Навчаємо вашу команду, надаємо документацію. Залишаємось на зв'язку для підтримки і розвитку системи.</div></div>
+        <button class="faq__q"><span>Що потрібно з мого боку?</span><span class="faq__icon">+</span></button>
+        <div class="faq__a"><div class="faq__a-inner">30–60 хвилин на дзвінок для збору вимог і доступи до потрібних систем (CRM, Telegram-бот, сайт). Технічну частину повністю беремо на себе.</div></div>
       </div>
       <div class="faq__item">
-        <button class="faq__q"><span data-i18n="srv.faq4.q">Чи можна автоматизувати частково, не всі процеси?</span><span class="faq__icon">+</span></button>
-        <div class="faq__a"><div class="faq__a-inner" data-i18n="srv.faq4.a">Звичайно. Починаємо з найбільш болючого місця і нарощуємо поступово.</div></div>
+        <button class="faq__q"><span>Чи можна доробити або розширити після запуску?</span><span class="faq__icon">+</span></button>
+        <div class="faq__a"><div class="faq__a-inner">Так. Після запуску ви отримуєте доступ до всіх налаштувань. Додаткові доробки — окремий кошторис, зазвичай швидко і недорого.</div></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q"><span>Що якщо результат не влаштує?</span><span class="faq__icon">+</span></button>
+        <div class="faq__a"><div class="faq__a-inner">До моменту здачі ви бачите прогрес. Якщо щось не так — правимо до прийомки. Решта оплати тільки після вашого підтвердження.</div></div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- CTA -->
-<section class="section section--dark">
+<section class="section">
   <div class="container">
     <div class="cta-banner">
-      <h2 data-i18n="srv.cta.h2">Є задача? Обговоримо.</h2>
-      <p data-i18n="srv.cta.sub">Безкоштовна консультація — розберемо ваш процес і запропонуємо рішення.</p>
+      <h2>Готові стартувати?</h2>
+      <p>Напишіть — за 30 хвилин визначимось з продуктом, обсягом і ціною.</p>
       <div class="btns">
-        <a href="contact.html" class="btn btn--primary btn--lg" data-i18n="nav.cta">Обговорити проєкт</a>
+        <a href="contact.html" class="btn btn--primary btn--lg">Обговорити задачу</a>
       </div>
     </div>
   </div>
@@ -276,34 +311,34 @@
     <div class="footer__grid">
       <div class="footer__brand">
         <a href="index.html" class="nav__logo">automaticly<span>.</span></a>
-        <p data-i18n="footer.tagline">Автоматизуємо рутину — ви зростаєте.</p>
+        <p>AI-продукти для малого бізнесу. Фіксована ціна — чіткий результат.</p>
       </div>
       <div class="footer__col">
-        <h4 data-i18n="footer.col1">Послуги</h4>
-        <a href="services.html#make" data-i18n="footer.s1">Make / n8n</a>
-        <a href="services.html#n8n-selfhost">Self-hosted n8n</a>
-        <a href="services.html#ai" data-i18n="footer.s2">AI-агенти</a>
-        <a href="services.html#telegram" data-i18n="footer.s3">Telegram-боти</a>
-        <a href="services.html#odoo" data-i18n="footer.s4">Odoo ERP</a>
+        <h4>Продукти</h4>
+        <a href="#tg-bot">Telegram-бот</a>
+        <a href="#ai-receptionist">AI Ресепшн</a>
+        <a href="#lead-crm">Автоматизація заявок</a>
+        <a href="#call-analysis">Аналіз дзвінків</a>
+        <a href="#n8n-migration">Міграція на n8n</a>
       </div>
       <div class="footer__col">
-        <h4 data-i18n="footer.col2">Компанія</h4>
-        <a href="about.html" data-i18n="footer.c1">Про нас</a>
-        <a href="cases.html" data-i18n="footer.c2">Кейси</a>
-        <a href="contact.html" data-i18n="footer.c3">Контакти</a>
+        <h4>Компанія</h4>
+        <a href="about.html">Про нас</a>
+        <a href="cases.html">Кейси</a>
+        <a href="contact.html">Контакти</a>
       </div>
       <div class="footer__col">
-        <h4 data-i18n="footer.col3">Ресурси</h4>
-        <a href="blog.html" data-i18n="footer.r1">Блог</a>
-        <a href="contact.html#faq" data-i18n="footer.r2">FAQ</a>
-        <a href="https://t.me/your_telegram" target="_blank" data-i18n="footer.r3">Telegram</a>
+        <h4>Зв'язок</h4>
+        <a href="https://t.me/your_telegram" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://linkedin.com/company/automaticly" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="contact.html">Написати</a>
       </div>
     </div>
     <div class="footer__bottom">
-      <p data-i18n="footer.copy">© 2026 automaticly.org</p>
+      <p>© 2026 automaticly.org</p>
       <div class="footer__socials">
-        <a href="https://t.me/your_telegram" target="_blank" title="Telegram">✈</a>
-        <a href="https://linkedin.com" target="_blank" title="LinkedIn">in</a>
+        <a href="https://t.me/your_telegram" target="_blank" rel="noopener" title="Telegram">✈</a>
+        <a href="https://linkedin.com/company/automaticly" target="_blank" rel="noopener" title="LinkedIn">in</a>
       </div>
     </div>
   </div>

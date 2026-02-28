@@ -176,6 +176,8 @@ a  { color: inherit; }
 .card ul li::before { content: '✓'; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
 .card__link { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); font-size: 0.88rem; font-weight: 600; margin-top: 20px; text-decoration: none; }
 .card__link:hover { gap: 10px; }
+.card__price { font-size: 1rem; font-weight: 800; color: var(--accent); margin-top: 4px; }
+.card__time { font-size: 0.78rem; color: var(--text-muted); margin-bottom: 6px; }
 
 /* ===== COMPARE (with/without) ===== */
 .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
@@ -281,6 +283,18 @@ a  { color: inherit; }
 .flow-step__ico { font-size: 1.3rem; flex-shrink: 0; }
 .flow-step__label { font-size: 0.88rem; font-weight: 500; color: var(--text-2); }
 .flow-arrow { color: var(--accent); text-align: center; font-size: 1.2rem; opacity: .5; }
+.service-detail__price-line { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 16px !important; margin-top: -8px; }
+.service-detail__price-line strong { font-size: 1.3rem; color: var(--accent); font-weight: 800; }
+.service-detail__price-line span { font-size: 0.85rem; }
+.service-detail__for { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 24px !important; }
+.service-detail__price-block {
+  background: var(--accent-dim); border: 1px solid var(--border-accent);
+  border-radius: var(--radius-sm); padding: 14px 16px; margin-top: 8px;
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+}
+.price-val { font-size: 1.4rem; font-weight: 800; color: var(--accent); }
+.price-time { font-size: 0.85rem; color: var(--text-muted); }
+.price-note { font-size: 0.78rem; color: var(--text-muted); width: 100%; }
 @media(max-width:860px) {
   .service-detail { grid-template-columns: 1fr; gap: 40px; }
   .service-detail--rev { direction: ltr; }
